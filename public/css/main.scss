@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f6f8;
+}
+
+img {
+  width: 100%;
+}
+
+.wapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.btn-primary {
+  background-color: #008cba;
+}
+
+.card {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card__image {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  margin-bottom: 16px;
+  opacity: 80%;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__job {
+  color: #6e8192;
+}
